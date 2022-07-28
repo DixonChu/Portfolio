@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.offset:before {
+  display:block;
+  content: "";
+  height: 4rem;
+}
+
+/* -- Navbar -- */
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+/* -- Home -- */
+.home-inner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(136, 136, 136, 0.6)), url(../Assets/Images/image.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top:40%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 4rem;
+}
+
+/* -- About -- */
+.narrow {
+  width: 75%;
+  margin:1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1{
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.narrow p{
+  font-size: 1.1rem;
+}
+
+.profile img {
+  padding: 0.01rem;
+  border: 0.01rem solid gray;
+  width: 60%;
+  border-radius: 10%;
+  margin-left:5rem;
+}
+
+.container {
+  padding-top: 0.8em;
+}
+
+
+/* -- Contact -- */
+footer {
+  background-color: #14141494;
+  color: white;
+  padding: 4rem 0 2rem;
+  margin-top:4rem;
+}
+
+footer p {
+  padding-top:1rem;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 2rem;
+  margin: 1.2rem 1rem 0 0;
+}
+
+
+hr.line {
+  /* border-top: 0.2rem solid #666b71; */
+  margin-top: 3rem;
+  width: 100%;
+}
+
+
+ul.icons-footer {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  /* color: #000000; */
+}
+
+ul.icons-footer li {
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 0.5rem;
+  margin-right:1.5rem;
+}
+
+ul.icons-footer a {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  border: 0;
+}
+
+ul.icons-footer i {
+  font-size:24px;
+  /* color: black; */
+}
+
+
+ul.icons-footer i:hover {
+  color: #000000;
+}
+
+.hvr-icon-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-float .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-float:hover .hvr-icon, .hvr-icon-float:focus .hvr-icon, .hvr-icon-float:active .hvr-icon {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
